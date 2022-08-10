@@ -7,4 +7,6 @@
           Fn::FindInMap:
             - "SubnetConfig"
             - "VPC"
-            - "CIDR"
+            - "SG"
+	    - "NACL"
+	    - "PORT"
